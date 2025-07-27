@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: line-webhook-demo
+    env: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
